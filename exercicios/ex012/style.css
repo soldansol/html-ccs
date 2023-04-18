@@ -1,0 +1,15 @@
+section {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
+
+}
+
+div {
+    width: 560px;
+   
+
+}
