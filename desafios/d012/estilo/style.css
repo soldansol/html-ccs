@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+:root {
+
+   --fonte1: Verdana, Geneva, tahoma, sans-serif;
+   --fonte2: font-family: 'Roboto', sans-serif;
+   --fonte3:font-family: 'Sriracha', cursive;
+}
+
 * {
      margin: 0px;
      padding: 0px;
+     font-size: 1em;
 }
 
 html,body {
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fonte1);
 
 }
 
@@ -19,6 +32,8 @@ header {
  header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size:5vw ;
    
  }
  header > p {
@@ -39,12 +54,14 @@ header a:hover, footer a:hover {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3vw;
  } 
 
 
  section.normal {
     background-color: white;
-    color: black;
+    color: black
  }
   
  section.imagem {
@@ -55,8 +72,9 @@ header a:hover, footer a:hover {
  }
 
  section.imagem > p {
-    width: 400px;
-    color: rgba(0, 0, 0, 0.603);
+   display: inline-block;
+    padding: 5px;
+    color: rgb(0, 0, 0);
  }
 
  section.imagem {
