@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+
+        }
+
+        col.cnome {
+            background-color: aqua;
+        }
+
+        col.csexo, .cidade {
+            background-color:aquamarine;
+        }
+        col.cprofissão {
+            background-color:rgb(103, 80, 125) ;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Exercícios de Tabela</h1>
+    <table>
+        <colgroup>
+
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprofissão">
+
+
+        </colgroup>
+
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Sophia</td>
+            <td>F</td>
+            <td>10</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Solange</td>
+            <td>F</td>
+            <td>36</td>
+            <td>Passadeira</td>
+        </tr>
+        <tr>
+            <td>Danilo</td>
+            <td>M</td>
+            <td>37</td>
+            <td>Criador de Site</td>
+        </tr>
+    </table>
+</body>
+
+</html>
